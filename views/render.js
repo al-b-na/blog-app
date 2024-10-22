@@ -23,6 +23,6 @@ ejs.renderFile('template.ejs', { posts }, (err, html) => {
     }
 
     // Write the rendered HTML to output.html
-    writeFileSync('output.html', html);
+    writeFileSync('../output.html', html);
     console.log('HTML file successfully created!');
 });
